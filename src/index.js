@@ -1,8 +1,9 @@
-const datefns = require('date-fns');
-
 const now = new Date();
 function format(date) {
-	return datefns.format(date, 'dd/MM/yyyy');
+	return [date.getDate(), date.getMonth() + 1, date.getFullYear()]
+		.map(String)
+		.map((p) => p.padStart(2, '0'))
+		.join('/');
 }
 console.log(now);
 console.log(format(now));

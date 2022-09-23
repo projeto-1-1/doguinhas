@@ -17,7 +17,5 @@
 		"url": "https://github.com/projeto-1-1/doguinhas/issues"
 	},
 	"homepage": "https://github.com/projeto-1-1/doguinhas#readme",
-	"dependencies": {
-		"date-fns": "^2.29.3"
-	}
+	"dependencies": {}
 }
